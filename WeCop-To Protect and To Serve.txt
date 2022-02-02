@@ -1,0 +1,652 @@
+https://docs.google.com/forms/d/e/1FAIpQLSfYcUnUSelubCSpbm-NX_l6inWT1DQKKFCtUy5A2UzYlOQu6w/formResponse?edit2=2_ABaOnueyggdTydYSmAw53nPePfSveTp4gmDdIaHcRxCZ5e7gnlDtYPHoi1eIHWWFMaOuGxQ
+
+VNSGUR0011000049
+VNSGUR0011000051
+
+
+VNSGUR0015001378
+Application :
+{
+    USER:
+    {
+        Shared Pref (User Account Information)
+        Police - Presserve Homee
+        Add Preserve Home Insert
+        Click Event - Particular Page Open
+        Custom Icons for each Category
+        Payment Example
+        Map Picker(Address Problem)
+    (H) Preserve Home (Custom Marker)
+    (H) Search - Missing, Wanted, Vehicle
+    (H) YouTube
+    }
+}
+Web :
+{
+        Pincode - MAP Picker : postalcode (Insert)
+}
+
+#Vehicle
+We've found a vahicle
+GJ-05-FU-6426
+
+
+
+Missing Person Details -> print in loop
+
+Application :
+{
+    USER:
+    {
+        Click Event - Particular Page Open
+    (H) Preserve Home (Image Upload)(Custom Marker)
+        Custom Icons for each Category
+    (H) My Account - Change Password
+        Custom App Icon
+        Payment Example
+    (H) Search - Missing, Wanted, Vehicle
+        Dashboard Design
+        Map Picker(Address Problem)
+	--> Not Verify Person Verification - OTP - Send on Email 
+	--> Women Sefty
+	--> Image Slider(Implementation)
+	--> Show his own FIR
+	-->	Share : News and Missing
+	-->	Splash Screen
+	(H) YouTube
+	(H) 2 Maps - Crime and Home
+    --> Feedback Add    
+    }
+}
+
+Admin Panel/Police Panel :
+{
+	    Dashboard FIR Details
+	    Pincode - MAP Picker : postalcode
+	    Crime Map - MAP Category Defination(UL and LI)
+	    User Block - Not Delete : Admin
+	    Charts - Age Wise, Monthly - (Area wise)
+	    Multiple delete Emergency Number - remove : Admin
+	    Presevre Home - Accept after Decline  : Police and Accept/Decline Notification to User
+	    Add Application Notification Missing-Wanted-News : Police
+	    Add FIR / FIR Log Application Notification : Police - Sub Police
+	    Website Notification : police
+	    Add Police and Add Sub-User - Ajax (username exist or not)
+
+	    recent missing person : police sub user
+	    recent fir : police sub user
+	    solved FIR -  Pending - Assign - Missing : dashboard : police sub user
+	    missing person check : police sub user
+	    police sub user : show missing person, wanted person (Criteria)
+}
+
+
+
+
+
+https://www.slideshare.net/a4b3c2d1/ppt-on-cloud-storage-application
+https://www.slideshare.net/swtprashu/seminar-on-cloud-computing-by-prashant-gupta
+https://www.slideshare.net/Agarwaljay/cloud-computing-simple-ppt-41561620
+https://studymafia.org/cloud-storage-seminar-ppt-and-pdf-report/
+
+Application :
+{
+    USER:{
+00      Not Verify Person Verification - OTP - Send on Email 
+        Click Event - Particular Page Open
+00      Preserve Home (Image Upload) (Allocated to nearest Police Station) (Custom Marker)
+        Custom Icons for each Category
+-->     Police Sub User wise Preserve Home
+        Women Sefty
+00      Image Slider
+00      My Account - Change Password
+        Change Profile
+        Show his own FIR
+        Photo on Login
+-->     Custom Fonts - Icon
+        Feedback Add
+-->     Share : News and Missing
+-->     Splash Screen
+        YouTube
+        Payment Example
+        2 Maps - Crime and Home
+        Search - Missing, Wanted, Vehicle
+        Dashboard Design
+        Map Picker
+    }
+    VISITOR:
+
+}
+
+Admin Panel/Police Panel :
+{
+-->		When FIR Added, If User is not register then First Register User and Then Send Username and 		Password on User's Email,
+-->	    Forgot Password OTP Verification - Email
+-->	    News - End Date
+	    Dashboard FIR Details
+	    Pincode - MAP Picker : postalcode
+	    Crime Map - MAP Category Defination
+	    User Block - Not Delete : Admin
+	    Charts - Age Wise, Monthly - (Area wise)
+	    Multiple delete Emergency Number - remove : Admin
+00	    Presevre Home - Accept after Decline  : Police
+	    Add Application Notification Missing-Wanted-News : Police
+	    Add FIR / FIR Log Application Notification : Police - Sub Police
+	    Website Notification : police
+	    Add Police and Add Sub-User - Ajax (username exist or not)
+
+	    recent missing person : police sub user
+	    recent fir : police sub user
+00	    solved FIR -  Pending - Assign - Missing : dashboard : police sub user
+	    missing person check : police sub user
+00	    police sub user : show missing person, wanted person (Criteria)
+}
+
+
+Dialpad - Maryam
+
+
+
+
+				DateTimePicker(
+                  type: DateTimePickerType.date,
+                  dateMask: 'yyyy/MM/dd',
+                  //initialValue: _initialValue,
+                  firstDate: DateTime(2000),
+                  lastDate: DateTime(2100),
+                  icon: Icon(Icons.event),
+                  dateLabelText: 'Start Date',
+                  //locale: Locale('en', 'US'),
+                  onChanged: (val) => setState(() => _valueChanged3 = val),
+                  validator: (val) {
+                    setState(() => _valueToValidate3 = val ?? '');
+                    return null;
+                  },
+                  onSaved: (val) => setState(() => _valueSaved3 = val ?? ''),
+                ),
+                SizedBox(height: 20.0,),
+                DateTimePicker(
+                  type: DateTimePickerType.date,
+                  dateMask: 'yyyy/MM/dd',
+                  //initialValue: _initialValue,
+                  firstDate: DateTime(2000),
+                  lastDate: DateTime(2100),
+                  icon: Icon(Icons.event),
+                  dateLabelText: 'End Date',
+                  //locale: Locale('en', 'US'),
+                  onChanged: (val) => setState(() => _valueChanged3 = val),
+                  validator: (val) {
+                    setState(() => _valueToValidate3 = val ?? '');
+                    return null;
+                  },
+                  onSaved: (val) => setState(() => _valueSaved3 = val ?? ''),
+                ),
+
+                SizedBox(height: 20.0,),
+                TextField(
+                  maxLines: 6,
+                  // controller: _email,
+                  keyboardType: TextInputType.text,
+                  decoration: InputDecoration(
+                      border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(15.0)
+                      ),
+                      labelText: "Remarks",
+                      hintText: "Enter Remarks"
+                  ),
+
+                ),
+                SizedBox(height: 20.0,),
+                TextField(
+                  maxLines: 6,
+                  // controller: _password,
+                  keyboardType: TextInputType.text,
+                  decoration: InputDecoration(
+                      border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(15.0)
+                      ),
+                      labelText: "Address",
+                      hintText: "Enter Your Address"
+                  ),
+                ),
+                SizedBox(height: 20.0,),
+                TextField(
+                  // controller: _contact,
+                  keyboardType: TextInputType.phone,
+                  decoration: InputDecoration(
+                      border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(15.0)
+                      ),
+                      labelText: "Landmark",
+                      hintText: "Enter Your Landmark"
+                  ),
+
+                ),
+                SizedBox(height: 20,),
+                TextField(
+                  // controller: _contact,
+                  keyboardType: TextInputType.number,
+                  decoration: InputDecoration(
+                      border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(15.0)
+                      ),
+                      labelText: "Pincode",
+                      hintText: "Enter Your Pincode"
+                  ),
+
+                ),
+
+
+use expansion tile in drawer
+
+
+
+if you are going on vacation then you can add your home information in application we will analyse your home during night patrolling if an activity occurs there we will take care of it
+
+
+if you are going on vacation, then add your house information in the application,
+
+we will analyze your house during night patrol and if there is any activity then we will take action on it
+
+open specific page
+police station map marker
+flutter map marker
+
+Admin and Police Panel
+{
+	When Register FIR :
+	{
+		Check User is already register or not (userid)
+		{
+			email -> FIR Information
+		}
+		User is not Register
+		{
+			register first
+			email -> username and password
+		}
+	}
+}
+
+Application
+{
+	Username/Password -> Correct : isverify='YES'
+	{
+		successfully Login
+	}
+	Username/Password -> Incorrect 
+	{
+		invalid Username/Password
+	}
+	Username/Password -> Correct : isveirfy='No'
+	{
+		send OTP on mail :
+		if(OTP match)
+		{
+			update tbl_user -> isverify='Yes'
+		}
+		else
+		{
+			toast 'Invalid OTP'
+		}
+	}
+}
+
+
+
+crime map me marker change karna hai ... DONE
+Remove Password and Validation on DateTime
+login person image Police Panel
+Check krna hai Missing and Vehicle
+
+
+
+
+
+Add Sub Admin with Session Checking (not allow to add new admin) - Muzz ... DONE
+State Code Duplication (Location) - Muzz ... DONE
+categoryupdate - image - Muzz ... 
+login person image - Muzz ... DONE
+updatepolicestation > password - Muzz
+Chart - Maryam
+missingprofileex - Maryam
+policeprofile - Maryam
+pincode in map - Pending
+senior police register as a sub user or not - Pending
+View in Zone - DONE
+
+
+Click Event on Missing Person,FIR (Dashboard)
+
+tl homr
+
+  home_id
+  policestation_id
+  user_id
+  remark
+  start_date
+  end_date
+  photourl
+  isapprove
+  lattitude
+  longtitude
+  addressline1
+  addressline2
+  landmark
+  pincode
+
+
+location picker
+search
+youtube
+bottomnavigation
+validation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Lat Long Update
+FIR Log
+Notification
+Setting
+
+FIR Type (police,person)
+
+Download it and complete Designing ofFIR and Police View ( Tables ) , Session Checking, Checkbox in Fir]
+
+ [ Index Page (Image required ) , Dashboard (Last 5 FIR Missing Vehicles News) , Change 
+
+
+
+
+
+
+
+
+null safety
+
+flutter local notification
+
+
+13/03/2021
+{
+	Map
+	Bottom Navigation
+	Search
+	Phone Link
+	Multiple delete in Admin Panel
+	Same as Above
+	How check SESSION ?
+}
+
+Work From Home :
+{
+    Application :{
+        FIR Status
+        Navigation Design
+        Act
+        DONE : Vehicles: Redirect to Police Details
+        DONE : News
+    }
+    Police Panel :{
+        DONE : Login(policestation)
+        DONE : Session only added records in that Police station
+        Disable unauthorized functions
+    }
+}
+
+
+
+Missing date in Missing Person : null
+Error before loading : Missing Person
+Vehicles : Link on Police Station Name
+
+
+
+Acts
+DONE : Wanted
+DONE : Vehicles
+Tips
+DONE : Police station
+DONE : News
+DONE : Missing Person
+DONE : Emergency Number
+
+
+
+
+
+
+
+
+Logout
+Forgot Password
+
+
+
+
+
+Date time picker
+Police Management
+FOnt
+
+
+FIR <photourl 1,2 and missing person also contains photourl 1,2>
+
+
+
+DONE : Missing Person List
+DONE : Missing Person Details
+DONE : Vehicle List
+DONE : Vehicle Details
+FIR List
+FIR Details
+DONE : Wanted Person List
+DONE : Wanted Person Details
+News List
+News Details
+Act List
+Act Details
+Emergency Number List
+Police Station List
+Police Station Details
+
+
+
+Flutter:
+{
+	Login
+	Register
+	Forgot Password
+	OTP
+	Feedback
+}
+
+PPT
+{
+	Why FIRID in "Vehicle"
+	isactive in "News" ... (Startdate,Endtime)
+	zone_id in "tbl_fir" ... (zone_id/policestation_id)
+	act in "tbl_fir" ... cat_id in "tbl_tips"/"tbl_act"/"tbl_fir" (sub category of act then select act)
+	4 Modules or 5 ??
+	{
+		(Admin/Police Station/Police Station Sub User/User/Visitor)-(Admin/Police Station/User/Visitor)
+	}
+}
+
+
+
+
+
+
+
+
+18-02-2021
+
+Sub Police station - Police Sub User
+AddAdmin????
+How to Login
+Police SUb User Insert
+UserID in AddFIR DONE
+Ascending Order (State Name)
+
+Update(changes in dropdown)
+Design Change in Update Pages (Missing,FIR,policesubuser,policestation)
+
+state
+city
+missing name
+missing photo
+gender
+age
+last address1
+last address2
+landmark
+pincode
+last location type
+latitude
+longtitude
+missing date
+missing time
+more details
+
+
+
+act - category type
+police station sub user : rename
+problem in FIR Selection
+View(zone-zone wise police station,FIR-all details)
+update using ajax
+addFIR : State City and ZOne selection using Ajax,Act and Status Drop Down,Police station name(required or not)
+Missing Person FIR Name //
+Missing Person (Drop down using AJax)
+Vehicles (Drop down using AJax)
+DONE:Validation
+DONE : FIR Profile
+DONE : check cancel redirection
+DONE : Icons change : Delete Update and View
+
+
+
+
+
+act
+admin
+updatezone using ajax
+ajax checking value from database(AddCity) 
+drop down ajax(AddZone)
+
+
+
+
+Admin*
+State*
+City*
+Zone*
+police station*
+sub police station*
+category*
+sub category*
+user*
+missing person*
+wanted*
+vehicles*
+emergency
+news
+feedback
+tips
+act
+fir
+fir log
+
+Home Area Network
+HoneyPot
+Centralized Hub - All FIR are store as a Centerlized
+View Graph on MAP (Konse area me kitne crime hue h and kab hue h )
+User can check the status of complain and log of FIR
+Stolen Vehical
+Most Wanted person
+Missing Person
+Helpline Numbers
+News
+
+
+
+Admin Station View :
+-View and Replying user Complain
+-View and Replying user Compalin
+-Add Delete and Hide latest hot news
+-View and Delete user Feedback
+-View add and Delete Most wanted person
+-Add Delete and View Missing persons
+-Add and View Criminal Registrarion
+-Send a Message to User
+-Change Password
+-Add amd View Complain
+-Add New Admin
+-Add and view history sheet
+
+Police Station View :
+-View and Replying user Complain
+-View and Replying user Compalin
+-Add Delete and Hide latest hot news
+-View and Delete user Feedback
+-View add and Delete Most wanted person
+-Add Delete and View Missing persons
+-Add and View Criminal Registrarion
+-Send a Message to User
+-Change Password
+-Add amd View Complain
+-Add and view history sheet
+
+User View :
+-Add Complain
+-Add Crime report
+-Add Missing Person
+-view Missing person
+-View Most wanted person
+-Edit Complain
+-View crime status
+-Add and view feedback
+-View Most Wanted
+-View Helpline
+-View Safty Tips
+-View Stolen Vehical
+-Mail
+
+
+Visitor Module :
+-View Hotnews
+-View Missing Persons
+-View Crime Type
+-View FAQs
+-View Most Wanted
+-View Helpline
+-View Safty Tips
+-View Stolen Vehical
